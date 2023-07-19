@@ -1,0 +1,22 @@
+~/ml-cloud-nokku/ml_and_cloud_nokku/openai$ python experiment-1.py 
+chat_completion by gpt-3.5-turbo  : {
+  "id": "chatcmpl-7dug3UeQi1F7WZfwHGforKqOMVOIw",
+  "object": "chat.completion",
+  "created": 1689747015,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Large language models refer to artificial intelligence models that are able to understand and generate human language. These models are trained using vast amounts of text data, often involving billions of sentences, and have the ability to learn patterns, grammar, and context from the data. They can be used for a variety of natural language processing tasks, such as generating text, answering questions, completing sentences, summarizing text, and even engaging in conversations. Large language models have gained significant attention in recent years due to their impressive language understanding and generation capabilities."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 23,
+    "completion_tokens": 105,
+    "total_tokens": 128
+  }
+}
